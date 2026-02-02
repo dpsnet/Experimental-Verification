@@ -1,0 +1,110 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-size="20" font-family="Arial" text-anchor="middle" font-weight="bold">谱维流动趋势图</text>
+  
+  <!-- 坐标轴 -->
+  <!-- X轴 (能量/旋转速度) -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="700" y1="500" x2="690" y2="490" stroke="#000000" stroke-width="2"/>
+  <line x1="700" y1="500" x2="690" y2="510" stroke="#000000" stroke-width="2"/>
+  <text x="720" y="505" font-size="14" font-family="Arial">旋转速度 (rpm)</text>
+  
+  <!-- Y轴 (有效维度) -->
+  <line x1="100" y1="100" x2="100" y2="500" stroke="#000000" stroke-width="2"/>
+  <line x1="100" y1="100" x2="90" y2="110" stroke="#000000" stroke-width="2"/>
+  <line x1="100" y1="100" x2="110" y2="110" stroke="#000000" stroke-width="2"/>
+  <text x="60" y="100" font-size="14" font-family="Arial" transform="rotate(-90, 60, 100)">有效维度</text>
+  
+  <!-- 网格线 -->
+  <!-- 水平网格线 -->
+  <line x1="100" y1="150" x2="700" y2="150" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="200" x2="700" y2="200" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="350" x2="700" y2="350" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="100" y1="450" x2="700" y2="450" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- 垂直网格线 -->
+  <line x1="200" y1="100" x2="200" y2="500" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="300" y1="100" x2="300" y2="500" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="500" y1="100" x2="500" y2="500" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  <line x1="600" y1="100" x2="600" y2="500" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- 刻度标签 -->
+  <!-- Y轴刻度 -->
+  <text x="90" y="155" font-size="12" font-family="Arial" text-anchor="end">2.0</text>
+  <text x="90" y="205" font-size="12" font-family="Arial" text-anchor="end">2.2</text>
+  <text x="90" y="255" font-size="12" font-family="Arial" text-anchor="end">2.4</text>
+  <text x="90" y="305" font-size="12" font-family="Arial" text-anchor="end">2.6</text>
+  <text x="90" y="355" font-size="12" font-family="Arial" text-anchor="end">2.8</text>
+  <text x="90" y="405" font-size="12" font-family="Arial" text-anchor="end">2.9</text>
+  <text x="90" y="455" font-size="12" font-family="Arial" text-anchor="end">2.95</text>
+  <text x="90" y="505" font-size="12" font-family="Arial" text-anchor="end">3.0</text>
+  
+  <!-- X轴刻度 -->
+  <text x="100" y="520" font-size="12" font-family="Arial" text-anchor="middle">0</text>
+  <text x="200" y="520" font-size="12" font-family="Arial" text-anchor="middle">200</text>
+  <text x="300" y="520" font-size="12" font-family="Arial" text-anchor="middle">400</text>
+  <text x="400" y="520" font-size="12" font-family="Arial" text-anchor="middle">600</text>
+  <text x="500" y="520" font-size="12" font-family="Arial" text-anchor="middle">800</text>
+  <text x="600" y="520" font-size="12" font-family="Arial" text-anchor="middle">1000</text>
+  <text x="700" y="520" font-size="12" font-family="Arial" text-anchor="middle">1200</text>
+  
+  <!-- 数据点 -->
+  <!-- 静止状态 -->
+  <circle cx="100" cy="500" r="5" fill="#e74c3c"/>
+  <text x="110" y="495" font-size="10" font-family="Arial">静止</text>
+  
+  <!-- 低速旋转 -->
+  <circle cx="200" cy="450" r="5" fill="#e74c3c"/>
+  <text x="210" y="445" font-size="10" font-family="Arial">200rpm</text>
+  
+  <!-- 中速旋转 -->
+  <circle cx="300" cy="400" r="5" fill="#e74c3c"/>
+  <text x="310" y="395" font-size="10" font-family="Arial">400rpm</text>
+  
+  <!-- 中高速旋转 -->
+  <circle cx="400" cy="350" r="5" fill="#e74c3c"/>
+  <text x="410" y="345" font-size="10" font-family="Arial">600rpm</text>
+  
+  <!-- 高速旋转 -->
+  <circle cx="500" cy="300" r="5" fill="#e74c3c"/>
+  <text x="510" y="295" font-size="10" font-family="Arial">800rpm</text>
+  
+  <!-- 超高速旋转 -->
+  <circle cx="600" cy="250" r="5" fill="#e74c3c"/>
+  <text x="610" y="245" font-size="10" font-family="Arial">1000rpm</text>
+  
+  <!-- 极限状态 -->
+  <circle cx="700" cy="150" r="5" fill="#e74c3c"/>
+  <text x="690" y="140" font-size="10" font-family="Arial" text-anchor="end">极限</text>
+  
+  <!-- 趋势线 -->
+  <path d="M100,500 C150,475 250,425 350,375 C450,325 550,275 700,150" stroke="#3498db" stroke-width="2" fill="none"/>
+  
+  <!-- 区域填充 -->
+  <path d="M100,500 C150,475 250,425 350,375 C450,325 550,275 700,150 L700,500 Z" fill="#3498db" fill-opacity="0.1"/>
+  
+  <!-- 标注 -->
+  <text x="400" y="120" font-size="14" font-family="Arial" text-anchor="middle" font-weight="bold">谱维流动趋势</text>
+  <text x="400" y="140" font-size="12" font-family="Arial" text-anchor="middle">随着能量增加，有效维度从3逐渐减小到2</text>
+  
+  <!-- 维度区域标注 -->
+  <rect x="150" y="110" width="100" height="30" fill="#e74c3c" fill-opacity="0.2" stroke="#e74c3c" stroke-width="1"/>
+  <text x="200" y="130" font-size="10" font-family="Arial" text-anchor="middle">三维区域</text>
+  
+  <rect x="350" y="110" width="100" height="30" fill="#f39c12" fill-opacity="0.2" stroke="#f39c12" stroke-width="1"/>
+  <text x="400" y="130" font-size="10" font-family="Arial" text-anchor="middle">过渡区域</text>
+  
+  <rect x="550" y="110" width="100" height="30" fill="#2ecc71" fill-opacity="0.2" stroke="#2ecc71" stroke-width="1"/>
+  <text x="600" y="130" font-size="10" font-family="Arial" text-anchor="middle">二维区域</text>
+  
+  <!-- 箭头指示能量增加方向 -->
+  <path d="M650,530 L680,530 L675,525 L680,530 L675,535 Z" fill="#000000"/>
+  <text x="610" y="535" font-size="12" font-family="Arial">能量增加方向</text>
+</svg>
