@@ -796,4 +796,4 @@ $$d_s(N) = d_s(\infty) + \frac{A}{N^\alpha} + \frac{B}{N^\beta}$$
 
 **作者**: 王斌  
 **邮箱**: wang.bin@foxmail.com  
-**项目主页**: [GitHub Repositories]
+**项目主页**: [Experimental-Verification](https://github.com/dpsnet/Experimental-Verification)
